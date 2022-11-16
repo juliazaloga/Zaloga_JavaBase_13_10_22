@@ -65,7 +65,7 @@ public class Main {
 
         // ERROR!!!
 //        boolean demoBoolean = true;
-//        intageA = demoBoolean;
+//        int ageA = demoBoolean;
 
         System.out.println();
         System.out.println();
