@@ -163,6 +163,27 @@ public class Main {
         System.out.println();
         System.out.println();
 
+        // швыдкый спосиб
+
+        int counter1 = 0;
+        for (int i = 1; counter1 < 100; i++) {
+            String stringNumber = String.valueOf(i);
+            if (stringNumber.contains("4") || stringNumber.contains("9")) { // contains перевиряе наявнисть в рядку значень
+                continue;
+            }
+
+            System.out.println("Shuttle umber " + i);
+            counter1++;
+        }
+            System.out.println(counter1);
+
+
+
+
+
+
+
+
         // Вгадай чысло
         Scanner scanner = new Scanner(System.in);
 
