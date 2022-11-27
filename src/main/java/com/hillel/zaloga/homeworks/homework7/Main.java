@@ -62,18 +62,6 @@ public class Main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 //        int[] team = new int[10];
 //
 //        for (int i = 0; i < team.length; i++) {
@@ -99,7 +87,7 @@ public class Main {
 
         static void part4 () {
 
-            int[] array1 = {1, 2, 3, 4, 5};
+            int[] array1 = {1, 2, 3, 4, 5}; //копіювання масиву вручну
             int[] array2 = new int[array1.length];
 
             for (int i = 0; i < array1.length; i++) {
