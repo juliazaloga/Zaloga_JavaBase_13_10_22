@@ -10,16 +10,16 @@ public class Main {
         // Homework
 
 
-        int[] firmsNumber = new int [10];
+        int[] firmsNumber = new int [9];
 
         for (int i = 0; i < firmsNumber.length; i++) {
-            firmsNumber[i] = (int) (Math.random() * 11);
+            firmsNumber[i] = (int) (Math.random() * 10);
         }
 
-        int[] playersNumber = new int [10];
+        int[] playersNumber = new int [9];
 
         for (int i = 0; i < playersNumber.length; i++) {
-            playersNumber[i] = (int) (Math.random() * 11);
+            playersNumber[i] = (int) (Math.random() * 10);
         }
 
         Arrays.sort(firmsNumber);
