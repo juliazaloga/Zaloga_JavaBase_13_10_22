@@ -29,12 +29,58 @@ public class Fitness {
     }
 
     void printAccountInfo() {
+        System.out.print(getName() + " ");
+        System.out.print(getSurname() + ", ");
+        System.out.print(getAge() + ", ");
+        System.out.print(getDayOfBirth() + ".");
+        System.out.print(getMonthOfBirth() + ".");
+        System.out.print(getYearOfBirth() + ", ");
+        System.out.print(getEmail() + ", ");
+        System.out.print(getNumberPhone() + ", ");
+        System.out.print(getWeight() + ", ");
+        System.out.print(getPressure() + ", ");
+        System.out.print(getSteps() + ", ");
+    }
 
 
-        System.out.println("Name: " + name + ", surname: " + surname + ", age: " + getAge() + ", birth: " + dayOfBirth
-                + "." + monthOfBirth + "." + yearOfBirth + ", email: " + email + ", phone number: " + numberPhone
-                + ", weight: " + weight + ", pressure: " + pressure + ", steps: " + steps);
+    public String getName() {
+        return name;
+    }
 
+    public String getSurname() {
+        return surname;
+    }
+
+    public int getDayOfBirth() {
+        return dayOfBirth;
+    }
+
+    public int getMonthOfBirth() {
+        return monthOfBirth;
+    }
+
+    public int getYearOfBirth() {
+        return yearOfBirth;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getNumberPhone() {
+        return numberPhone;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public int getPressure() {
+        return pressure;
+    }
+
+    public int getSteps() {
+        return steps;
     }
 
     public int getAge() {

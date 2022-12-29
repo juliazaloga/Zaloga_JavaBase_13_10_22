@@ -14,9 +14,15 @@ public class Main {
 
         person1.printAccountInfo();
         System.out.println();
+        System.out.println();
+
         person2.printAccountInfo();
         System.out.println();
+        System.out.println();
+
         person3.printAccountInfo();
+        System.out.println();
+        System.out.println();
 
         person1.steps = 6500;
         person2.setNumberPhone("57888889");
@@ -24,7 +30,10 @@ public class Main {
         System.out.println();
 
         person1.printAccountInfo();
+        System.out.println();
         person2.printAccountInfo();
+
+
 
 
 
